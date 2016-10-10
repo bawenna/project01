@@ -1,0 +1,191 @@
+head {
+    display:none;
+}
+h1{
+    text-align:left;
+    padding:1.25em;
+
+}
+body{
+    background-color:#85C1E9;
+    line-height:1.5em;
+    
+}
+
+#wrap{
+  position: absolute; 
+  left: 50%; 
+  width: 75em;
+  margin-left: -37.5em;
+}
+
+#mainSection{
+    padding-left:1.875em;
+}
+
+#page{
+    text-align:center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:1.875em;
+
+}
+       
+nav{
+       text-align:center;
+       font-size:1.5625em;
+       padding:0.625em;
+   
+}
+
+ul {
+    list-style-position: inside;
+}
+.myColor{
+    background-color:#AED6F1;
+         border-style:solid;
+         border-width:0.03125em;
+         border-color:#2E86C1;
+}
+
+.myColor2{
+     background-color:#EBF5FB;
+}
+
+footer{
+  text-align:center;
+  padding:0.625em;
+  clear:both;
+}
+
+img{
+  height:100%;
+  width:100%;
+  padding-top:1.5625em;
+}
+
+#primary{
+  float:right;
+  width:54%;
+}
+
+#secondary{
+  float:left;
+  width:36%;
+}
+
+article{
+  font-size:1.25em;
+  padding-right:1.875em;
+  padding-bottom:4.375em;
+}
+
+.gallery{
+   width: 97.5%;
+    text-align: center;
+}
+.allfig {
+    padding: 0.9375px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 35em) and (max-width: 72em){
+h1{
+    text-align:left;
+    padding-left:10px;
+
+}
+#wrap{
+  left: 50%; 
+  width: 600px;
+  margin-left:-300px;
+}
+.myColor2{
+     background-color:#EBF5FB;
+     display:block;
+}
+#mainSection{
+    padding-left:15px;
+}
+
+#page{
+    text-align:center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:20px;
+
+}
+       
+nav{
+       text-align:center;
+       font-size:20px;
+       padding:10px;
+   
+}
+hr{
+  width:25%;
+}
+
+ul {
+    list-style-position: inside;
+}
+img{
+  height:100%;
+  width:100%;
+}
+
+#primary{
+  float:right;
+  width:54%;
+}
+
+#secondary{
+  float:left;
+  width:36%;
+}
+
+article{
+  font-size:20px;
+  padding-right:30px;
+  padding-bottom:70px;
+}
+
+}
+@media screen and (min-width: 0em) and (max-width: 34.9em){
+  h1{
+    text-align:left;
+    padding-left:10px;
+    font-size: 25px;
+
+}
+#wrap{
+  left: 50%; 
+  width: 300px;
+  margin-left:-150px;
+}
+.myColor2{
+     background-color:#EBF5FB;
+     display:block;
+}
+#mainSection{
+    padding-left:15px;
+}
+
+#page{
+    text-align:center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:20px;
+
+}
+       
+nav{
+       text-align:center;
+       font-size:15px;
+       padding:10px;
+   
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 5px;
+}
+}

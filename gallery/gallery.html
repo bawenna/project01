@@ -4,39 +4,35 @@
     <title>Gallery</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <style>
-        img{
-          display: block;
-          max-width: 25%
-        }
-    </style>
+    <link rel="stylesheet" media="screen" href="../screen.css" />
   </head>
-  
+    <div id="wrap" class="myColor2">
   <body>
     <header>
-      <h1>Gallery</h1>
-      <nav>
-        <ul>
-          <li><a href="../homepage/home.html">Home</a></li>
-          <li><a href="../resumepage/resume.html">Resume</a></li>
-          <li><a href="../gallerypage/gallery.html">Gallery</a></li>
-        </ul>
+      <h1>My Personal Website</h1>
+      <nav class="myColor">  
+          <a href="../home/home.html">Home</a> |
+          <a href="../resume/resume.html">Resume</a> |
+          <a href="../gallery/gallery.html">Gallery</a> 
       </nav>
     </header>
     
+    
+ <div id="mainSection">
+  <p id="page">---- Gallery ----</p>
     <div class ="gallery">
     
     <figure id = "img1">
       <a href = "../image/5.jpg"><img src="../image/5.jpg" alt="Broklyn Bridge"/></a>
         <figcaption class ="allfig">
-          <p>Brooklyn Bridge</p>
+          <p>Brooklyn Bridge, one of the most iconic landmark in New York</p>
         </figcaption>
     </figure>
     
     <figure id = "img2">
       <a href = "../image/6.jpg"><img src="../image/6.jpg" alt="Niagara falls"/></a>
         <figcaption class ="allfig">
-          <p>Niagara falls</p>
+          <p>The spectacular Niagara falls </p>
         </figcaption>
     </figure>
       
@@ -50,7 +46,7 @@
     <figure id = "img4">
       <a href = "../image/10.jpg"><img src="../image/10.jpg" alt="Eggloo"/></a>
         <figcaption class ="allfig">
-          <p>Eggloo</p>
+          <p>Eggloo, egg waffle with ice cream</p>
         </figcaption> 
     </figure>
       
@@ -64,7 +60,7 @@
     <figure id = "img6">
       <a href = "../image/2.jpg"><img src="../image/2.jpg" alt="San Francisco"/></a>
         <figcaption class ="allfig">
-          <p>San Francisco</p>
+          <p>San Francisco, in a peace and quiet neighborhood. </p>
         </figcaption>  
     </figure> 
     
@@ -92,7 +88,7 @@
     <figure id = "img10">
       <a href = "../image/7.jpg"><img src="../image/7.jpg" alt="Kang Ho Dong"/></a>
         <figcaption class ="allfig">
-          <p>Kang Ho Dong</p>
+          <p>Kang Ho Dong, a very famous place for Korean BBQ</p>
         </figcaption>     
     </figure>   
     
@@ -110,18 +106,20 @@
         </figcaption>
     </figure>
     </div>
+    </div>
+   
     
-    <audio controls>                
+    <footer  class="myColor">
+      
+        <p>Created by: Wenzhao Zhang  &nbsp; | &nbsp; Contact information: <a href="mailto:wzhang87@hawk.iit.edu"> wzhang87@hawk.iit.edu</a></p>
+        
+      
+       <audio controls>                
         <source src="../music/gallery.mp3" type="audio/mpeg" />
         <p>Download the <a href="../music/home.mp3">audio file </a></p>
     </audio>
-    
-    <footer>
-      <ul>
-        <li>Created by: Wenzhao Zhang</li>
-        <li>Contact information: <a href="mailto:wzhang87@hawk.iit.edu"> wzhang87@hawk.iit.edu</a>.</li>
-      </ul>
     </footer>
   
   </body>
+  </div>
 </html>

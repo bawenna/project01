@@ -1,0 +1,321 @@
+/* STYLE RESET */
+*{margin: 0;padding: 0;}
+/* END RESET */
+body {
+  background-color: rgb(241, 240, 238);
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  background-color: #160A47;
+  margin-bottom: 1.5em;
+}
+
+nav li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  border-left: thin solid black;
+  border-right: thin solid black;
+  margin-left: 2em;
+  margin-right: 2em;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 2em 5em 2em 5em;
+  display: block;
+}
+
+main {
+  margin: auto 1.5em auto 1.5em;
+  text-align: left;
+}
+
+main li {
+  list-style-type: circle;
+}
+
+section {
+  border-bottom: thin solid black;
+}
+
+section ul {
+  border-top: thin solid black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  display: inline-block;
+  text-align: right;
+}
+
+.games * {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+.games h2 {
+  border-top: thin solid black;
+}
+
+.games h3 {
+  text-align: center;
+  display: block;
+}
+
+#resume {
+  margin: auto 5em auto 5em;
+  padding: 3em;
+  border: thin solid black;
+}
+
+#resume * {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+#fav {
+  display: inline-block;
+  width: 55em;
+  padding-right: 1em;
+}
+
+#ant {
+  display: inline-block;
+  width: 55em;
+  padding-left: 1em;
+}
+
+#res-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 50em;
+  padding-right: 1em;
+  border-bottom: 0;
+}
+
+#res-right {
+  display: inline-block;
+  width: 50em;
+  padding-left: 1em;
+}
+
+/* Interactions */
+nav a:hover {
+  background-color: rgb(241, 240, 238);
+  color: #160A47;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* Tablet/Notebook(small) */
+@media screen and (min-width: 30em) and (max-width: 60em)
+{
+  body {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  nav li {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-left: thin solid black;
+    border-right: thin solid black;
+  }
+
+  nav a {
+    padding: 1em 3em 1em 3em;
+    display: block;
+  }
+
+  h1{
+    text-align: left;
+    font-size: 5em;
+  }
+
+  main {
+    margin: auto 1em auto 1em;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  #edu {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+  }
+
+  #personal {
+    text-align: center;
+  }
+
+  .games * {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .games h2 {
+    border-top: thin solid black;
+  }
+
+  #fav {
+    display: block;
+    width: auto;
+    padding-right: 0;
+  }
+
+  #ant {
+    display: block;
+    width: auto;
+    padding-left: 0;
+  }
+
+  #resume {
+  margin: auto 2em 1em 2em;
+  padding: 1em;
+  border: thin solid black;
+  }
+
+  #resume * {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+  
+  #res-left {
+  display: block;
+  width: auto;
+  padding-left: 1em;
+  border-bottom: 0;
+  }
+
+  #res-right {
+    display: block;
+    width: auto;
+    padding-left: 1em;
+  }
+}
+
+/* Mobile Phone */
+@media screen and (min-width: 10em) and (max-width: 30em)
+{
+  body {
+    font-size: 0.667em;
+    width: 100%;
+  }
+
+  header {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  nav ul {
+    margin-left: 2em;
+  }
+
+  nav li {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    border-left: thin solid black;
+    border-right: thin solid black;
+  }
+
+  nav a {
+    padding: 1em 2em 1em 2em;
+    display: block;
+  }
+
+  h1, h2 {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  h3, h4 {
+    text-align: center;
+    display: inline;
+    font-size: 1em;
+  }
+
+  main {
+    margin: auto 1em auto 1em;
+  }
+
+  section {
+    border-bottom: thin solid black;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .resume {
+    text-align: center;
+  }
+
+  .games * {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .games h2 {
+    border-top: thin solid black;
+  }
+
+  .games h3 {
+    text-align: center;
+    display: block;
+  }
+
+  #fav {
+    display: block;
+    width: auto;
+    padding-right: 0;
+  }
+
+  #ant {
+    display: block;
+    width: auto;
+    padding-left: 0;
+  }
+
+  #resume {
+  margin: auto 1em 1em 1em;
+  padding: 1em 1em 1em 1.5em;
+  border: thin solid black;
+  }
+
+  #resume * {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+  
+  #res-left {
+  display: block;
+  width: auto;
+  padding-left: 0;
+  border-bottom: 0;
+  }
+
+  #res-right {
+    display: block;
+    width: auto;
+    padding-left: 0;
+  }
+}
